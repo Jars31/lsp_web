@@ -24,7 +24,7 @@ if ($_SESSION['level']!='admin') {
 	<title>Admin - Aplikasi Pembayaran SPP.</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body style="background-color:orange;">
+<body style="background-color:rgb(193,193,193);">
 <div class="container mt-5">
 	 <h3>APLIKASI PEMBAYARAN SPP.</h3>
 	 <div class="alert alert-info">

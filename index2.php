@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
 <body>
-<body style="background-color:orange;">
+<body style="background-color:rgb(193,193,193);">
   <table border="1" cellspacing="0">
     <center>
       <h1>APLIKASI PEMBAYARAN SPP</h1>
