@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
 <body>
-<body style="background-color:orange;">
+<body style="background-color:rgb(193,193,193);">
   <table border="1" cellspacing="0">
     <center>
       <h1>APLIKASI PEMBAYARAN SPP</h1>
@@ -18,12 +18,10 @@
       </div>
       <form action="proses-login-petugas.php" method="post">
         <div class="box-login">
-          <i class="fas fa-envelope-open-text"></i>
           <input type="text" name="username" class="form-control" placeholder="Masukan Username anda.." required>
         </div>
 
         <div class="box-login">
-          <i class="fas fa-lock"></i>
           <input type="password" name="password" class="form-control" placeholder="Masukan Password anda.." required>
         </div>
 

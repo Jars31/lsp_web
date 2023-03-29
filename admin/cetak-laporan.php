@@ -1,11 +1,7 @@
-<?php 
-//header = bagian dan dokumen yang muncul diatas margin /digunakan untuk memproses http
-header("content-type: appliation/vnd-ms-excel");
-header("content-Disposition: attachment; filename=Laporan-Pembayaran-SPP.xls");
- ?>
 <h5>Laporan Pembayaran SPP.</h5>
 <hr>
 <table border="1" class="table table-striped table-bordered">
+<button onclick="printTable()">Cetak</button>
 	<tr class="fw-bold">
 		<td>No</td>
 		<td>NISN</td>
@@ -38,5 +34,21 @@ header("content-Disposition: attachment; filename=Laporan-Pembayaran-SPP.xls");
 	 	<td><?= $data['tgl_bayar'] ?></td>
 	 	<td><?= $data['nama_petugas'] ?></td>
 	 </tr>
-	 <?php } ?>	
-</table>
+	 <?php } 
+	 
+	  ?>	
+</table> 
+
+<script>
+	function printTable() {
+		var table = document.querySelector(".table");
+		var win = window.open("",  "", "width=800,height=600");
+		win.document.write("<html><head><title>Laporan Pembayaran SPP</title>");
+		win.document.write("</head><body>");
+		win.document.write("<h5>Laporan Pembayaran SPP</h5><hr>");
+		win.document.write(table.outerHTML);
+		win.document.write("</body></html>");
+		win.print();
+		win.close();
+	  }
+</script>

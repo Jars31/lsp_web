@@ -24,21 +24,19 @@ if ($_SESSION['level']!='admin') {
 	<title>Admin - Aplikasi Pembayaran SPP.</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body style="background-color:orange;">
+<body style="background-color:rgb(193,193,193);">
 <div class="container mt-5">
-	 <h3>APLIKASI PEMBAYARAN SPP.</h3>
-	 <div class="alert alert-info">
-	 	Anda Login Sebagai <b>ADMINISTRATOR</b> Aplikasi Pembayaran SPP.
+	 <div class="alert bg-dark text-white">
+	 	Anda Login Sebagai Admin <b>ADMINISTRATOR</b> Aplikasi Pembayaran SPP.
 	 </div>
 	 <?php  //mencari situs url?>
-	 <a href="admin.php" class="btn btn-primary">Administrator</a>
-	 <a href="admin.php?url=spp" class="btn btn-primary">SPP</a>
-	 <a href="admin.php?url=kelas" class="btn btn-primary">Kelas</a>
-	 <a href="admin.php?url=siswa" class="btn btn-primary">Siswa</a>
-	 <a href="admin.php?url=petugas" class="btn btn-primary">Petugas</a>
-	 <a href="admin.php?url=Pembayaran" class="btn btn-primary">Pembayaran</a>
-	 <a href="admin.php?url=Laporan" class="btn btn-primary">Laporan</a>
-	 <a href="admin.php?url=Logout" class="btn btn-primary">Logout</a>
+	 <a href="admin.php?url=spp" class="btn bg-dark text-white">SPP</a>
+	 <a href="admin.php?url=kelas" class="btn bg-dark text-white">Kelas</a>
+	 <a href="admin.php?url=siswa" class="btn bg-dark text-white">Siswa</a>
+	 <a href="admin.php?url=petugas" class="btn bg-dark text-white">Petugas</a>
+	 <a href="admin.php?url=Pembayaran" class="btn bg-dark text-white">Pembayaran</a>
+	 <a href="admin.php?url=Laporan" class="btn bg-dark text-white">Laporan</a>
+	 <a href="admin.php?url=Logout" class="btn bg-dark text-white">Logout</a>
 
 	 <div class="card mt-2">
 	 	<div class="bodycart- alert">

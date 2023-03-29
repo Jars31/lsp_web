@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-    <body style="background-color:orange;">
+    <body style="background-color:rgb(193,193,193);">
     <table border="1" cellspacing="0">
   <center><h1>APLIKASI PEMBAYARAN SPP</h1></center>
 	<div class="container">
@@ -15,12 +15,10 @@
           </div>
           <form action="proses-login-siswa.php" method="post">
           <div class="box-login">
-            <i class="fas fa-envelope-open-text"></i>
            <input type="number" name="nisn" class="form-control" placeholder="Masukan NISN anda.." required>
           </div>
 
           <div class="box-login">
-            <i class="fas fa-lock"></i>
            <input type="number" name="nis" class="form-control" placeholder="Masukan NIS anda.." required>
           </div>
 
