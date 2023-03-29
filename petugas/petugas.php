@@ -26,13 +26,11 @@ if ($_SESSION['level']!='petugas') {
 </head>
 <body style="background-color:rgb(193,193,193);">
 <div class="container mt-5">
-	 <h3>APLIKAI PEMBAYARAN SPP.</h3>
-	 <div class="alert alert-info">
-	 	Anda Login Sebagai Petugas<b><?= $_SESSION['nama_petugas'] ?></b> Aplikasi Pembayaran SPP.
+	 <div class="alert bg-dark text-white">
+	 	Anda Login Sebagai Petugas <b><?= $_SESSION['nama_petugas'] ?></b> Aplikasi Pembayaran SPP.
 	 </div>
-	 <a href="petugas.php" class="btn btn-primary">Petugas</a>
-	 <a href="petugas.php?url=Pembayaran" class="btn btn-primary">Pembayaran</a>
-	 <a href="petugas.php?url=Logout" class="btn btn-primary">Logout</a>
+	 <a href="petugas.php?url=Pembayaran" class="btn bg-dark text-white">Pembayaran</a>
+	 <a href="petugas.php?url=Logout" class="btn bg-dark text-white">Logout</a>
 
 	 <div class="card mt-2">
 	 	<div class="bodycart- alert">

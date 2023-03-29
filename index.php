@@ -15,12 +15,10 @@
           </div>
           <form action="proses-login-siswa.php" method="post">
           <div class="box-login">
-            <i class="fas fa-envelope-open-text"></i>
            <input type="number" name="nisn" class="form-control" placeholder="Masukan NISN anda.." required>
           </div>
 
           <div class="box-login">
-            <i class="fas fa-lock"></i>
            <input type="number" name="nis" class="form-control" placeholder="Masukan NIS anda.." required>
           </div>
 

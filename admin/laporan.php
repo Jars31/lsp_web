@@ -1,5 +1,5 @@
 <h5>Laporan Pembayaran SPP.</h5>
-<a href="cetak-laporan.php" class="btn btn-primary">Cetak Laporan</a>
+<a href="cetak-laporan.php" class="btn bg-success text-white">Cetak Laporan</a>
 <hr>
 <table class="table table-striped table-bordered">
 	<tr class="fw-bold">

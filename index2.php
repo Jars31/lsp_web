@@ -18,12 +18,10 @@
       </div>
       <form action="proses-login-petugas.php" method="post">
         <div class="box-login">
-          <i class="fas fa-envelope-open-text"></i>
           <input type="text" name="username" class="form-control" placeholder="Masukan Username anda.." required>
         </div>
 
         <div class="box-login">
-          <i class="fas fa-lock"></i>
           <input type="password" name="password" class="form-control" placeholder="Masukan Password anda.." required>
         </div>
 

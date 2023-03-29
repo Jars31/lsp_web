@@ -37,7 +37,7 @@
 	 <?php } 
 	 
 	  ?>	
-</table>
+</table> 
 
 <script>
 	function printTable() {
